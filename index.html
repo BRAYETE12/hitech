@@ -25,6 +25,27 @@
         .navbar-shrink .navbar-brand img{
             height: 55px;
         }
+        .projects-section {
+            padding: 3rem 0;
+        }
+        .masthead {
+            background: -webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.4)),color-stop(75%,rgba(22,22,22,0)),to(#16161600)),url(../img/desarrollo.jpg);
+            background: linear-gradient(to bottom,rgba(22,22,22,.4) 0,rgba(22,22,22,0) 75%,#16161600 100%),url(../img/desarrollo.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+        }
+        #mainNav .nav-link{ color:white; }
+
+        .signup-section {
+            background: -webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.1)),color-stop(75%,rgba(22,22,22,.5)),to(#16161600)),url(../img/starup.jpg);
+            background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#16161600 100%),url(../img/starup.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+        }
     </style>
 </head>
 
@@ -51,6 +72,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#desarrollo">Desarrollo</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contactenos">Contáctenos</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -60,26 +84,12 @@
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+        <h1 class="mx-auto my-0 text-uppercase">Bienvenido0</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Realizamos software a la medida</h2>
       </div>
     </div>
   </header>
 
-  <!-- About Section -->
-  <section id="about" class="about-section text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-          <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-        </div>
-      </div>
-      <img src="img/ipad.png" class="img-fluid" alt="">
-    </div>
-  </section>
 
   <!-- quines somos -->
   <section id="quienesSomos" class="projects-section bg-light">
@@ -88,7 +98,7 @@
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-4 col-lg-4">
-          <img class="img-fluid mb-3 mb-lg-0" src="/img/quienes_somos.png" alt="">
+          <img class="img-fluid mb-3 mb-lg-0" src="/img/quienes_somos.jpg" style="padding-right: 15px;" >
         </div>
         <div class="col-xl-8 col-lg-8">
           <div class="featured-text text-center text-lg-left">
@@ -108,118 +118,82 @@
   <section id="desarrollo" class="projects-section bg-light">
     <div class="container">
 
-      <!-- Project One Row -->
-      <div class="row justify-content-center no-gutters">
-         <div class="col-lg-6 order-lg-first">
+       <div class="row justify-content-center no-gutters">
+            <div class="col-lg-12 p-1">
+                <div class="card w-100" >
+                    <div class="row no-gutters">
+                        <div class="col-md-5">
+                            <img src="/img/desarrollo.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <h5 class="card-title">DESARROLLO DE SOFTWARE</h5>
+                                <hr class="d-none d-lg-block mb-0 mr-0">
+                                <p class="mb-0">
+                                    Somos un equipo comprometido en desarrollar herramientas excepcionales y únicas, enfocadas en las necesidades de nuestros clientes.<br>
+                                    Estamos a la vanguardia tecnológica, esto nos permite ofrecer una variedad de soluciones. Haciendo evaluaciones de necesidades, estudio de viabilidad, diseño, desarrollo, pruebas, implementación, capacitación, garantía de soporte y mejoras. <br>
+                                    Desarrollamos en lenguajes de programación tales como: PHP, JAVA, .NET, PHYTON, C#, JavaScript, Assembly language (ASL) manejamos los siguientes motores de base de datos: MYSQL, MS SQL Server, PostgreSQL y Oracle.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+      </div>
 
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">DESARROLO</h5>
-                    <hr class="d-none d-lg-block mb-0 mr-0">
-                    <p class="mb-0">la diferencia con otras empresas desarrolladoras es que cada vez que inician un proyecto a la medida construyen todo desde cero para facturar más, nosotros fabricamos software usando componentes ya probados y listos. Además, contamos con los derechos de autor de muchos de nuestros desarrollos como respaldo los cuales hacen la gran diferencia.</p>
-                    <hr class="d-none d-lg-block mb-0 mr-0">
+      <div class="row justify-content-center no-gutters">
+            <div class="col-lg-4 p-1 order-lg-first">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">DESARROLO</h5>
+                        <hr class="d-none d-lg-block mb-0 mr-0">
+                        <p class="mb-0">
+                            la diferencia con otras empresas desarrolladoras es que cada vez que inician un proyecto a la medida construyen todo desde cero para facturar más, nosotros fabricamos software usando componentes ya probados y listos. Además, contamos con los derechos de autor de muchos de nuestros desarrollos como respaldo los cuales hacen la gran diferencia.<br>
+                            Basamos nuestras aplicaciones en el modelo Cliente-Servidor, y desarrollamos aplicaciones usando (web service) servicios web como:( WS-Security, REST, SOA, SOAP,).
+                        </p>
+                    </div>
                 </div>
             </div>
 
-        </div>
-        <div class="col-lg-6 order-lg-first">
-
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">DESARROLLO DE SOFTWARE</h5>
-                    <hr class="d-none d-lg-block mb-0 mr-0">
-                    <p class="mb-0">
-                        Somos un equipo comprometido en desarrollar herramientas excepcionales y únicas, enfocadas en las necesidades de nuestros clientes.<br>
-                        Estamos a la vanguardia tecnológica, esto nos permite ofrecer una variedad de soluciones. Haciendo evaluaciones de necesidades, estudio de viabilidad, diseño, desarrollo, pruebas, implementación, capacitación, garantía de soporte y mejoras. <br>
-                        Desarrollamos en lenguajes de programación tales como: PHP, JAVA, .NET, PHYTON, C#, JavaScript, Assembly language (ASL) manejamos los siguientes motores de base de datos: MYSQL, MS SQL Server, PostgreSQL y Oracle. <br>
-                        Especialistas en Frameworks como: Zend Framework, Phalcon, Yii, Codeigniter, Symfony2, Laravel.
-                    </p>
-                    <hr class="d-none d-lg-block mb-0 mr-0">
+            <div class="col-lg-4 p-1 order-lg-first">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">DESARROLLO WEB</h5>
+                        <hr class="d-none d-lg-block mb-0 mr-0">
+                        <p class="mb-0">
+                            Desarrollamos aplicaciones a la medida del cliente teniendo una apariencia impecable, un funcionamiento rápido y un excepcional desempeño para permitir la mejor experiencia del cliente en el ambiente web, usamos tecnologías de punta como: JAVA, PHP, .NET, Javascript, Ajax, Jquery, etc; todos los proyectos se basan en Frameworks de desarrollo como Zend Framework, Codeigniter, Laravel, Zend Framework, Backbone, Ember, Angular, Jquery, ASP .Net, Hibernate, Junit y Spring.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-        </div>
+            <div class="col-lg-4 p-1 order-lg-first">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">DESARROLLO MÓVILES</h5>
+                        <hr class="d-none d-lg-block mb-0 mr-0">
+                        <p class="mb-0">
+                            Las aplicaciones forman cada vez más parte de nuestra vida diaria por eso desarrollamos software movil a la medida para ANDROID, IOS, WINDOWS MOBILE, bien sea por medio de desarrollo totalmente nativo o aplicaciones hibridas. Usamos Metodologías Ágiles de Desarrollo responsive design lo cual garantiza y permite entregar proyectos siempre a tiempo, bien construidos y de alta calidad que puedan servir en los diferentes dispositivos móviles existentes como smartphones o tablets.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
       </div>
 
-
-      <!-- Project One Row -->
-      <div class="row justify-content-center no-gutters">
-         <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto">
-                <h4 class="text-white">DESARROLO</h4>
-                <p class="mb-0 text-white-50">la diferencia con otras empresas desarrolladoras es que cada vez que inician un proyecto a la medida construyen todo desde cero para facturar más, nosotros fabricamos software usando componentes ya probados y listos. Además, contamos con los derechos de autor de muchos de nuestros desarrollos como respaldo los cuales hacen la gran diferencia.</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto">
-                <h4 class="text-white">DESARROLLO DE SOFTWARE</h4>
-                <p class="mb-0 text-white-50">
-                    Somos un equipo comprometido en desarrollar herramientas excepcionales y únicas, enfocadas en las necesidades de nuestros clientes.<br>
-                    Estamos a la vanguardia tecnológica, esto nos permite ofrecer una variedad de soluciones. Haciendo evaluaciones de necesidades, estudio de viabilidad, diseño, desarrollo, pruebas, implementación, capacitación, garantía de soporte y mejoras. <br>
-                    Desarrollamos en lenguajes de programación tales como: PHP, JAVA, .NET, PHYTON, C#, JavaScript, Assembly language (ASL) manejamos los siguientes motores de base de datos: MYSQL, MS SQL Server, PostgreSQL y Oracle. <br>
-                    Especialistas en Frameworks como: Zend Framework, Phalcon, Yii, Codeigniter, Symfony2, Laravel.
-                </p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project two Row -->
-      <div class="row justify-content-center no-gutters">
-         <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto">
-                <h4 class="text-white">DESARROLLO WEB</h4>
-                <p class="mb-0 text-white-50">
-                    Desarrollamos aplicaciones a la medida del cliente teniendo una apariencia impecable, un funcionamiento rápido y un excepcional desempeño para permitir la mejor experiencia del cliente en el ambiente web, usamos tecnologías de punta como: JAVA, PHP, .NET, Javascript, Ajax, Jquery, etc; todos los proyectos se basan en Frameworks de desarrollo como Zend Framework, Codeigniter, Laravel, Zend Framework, Backbone, Ember, Angular, Jquery, ASP .Net, Hibernate, Junit y Spring. <br>
-                    Basamos nuestras aplicaciones en el modelo Cliente-Servidor, y desarrollamos aplicaciones usando (web service) servicios web como:( WS-Security, REST, SOA, SOAP,).
-                </p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto">
-                <h4 class="text-white">DESARROLLO MÓVILES</h4>
-                <p class="mb-0 text-white-50">
-                    Las aplicaciones forman cada vez más parte de nuestra vida diaria por eso desarrollamos software movil a la medida para ANDROID, IOS, WINDOWS MOBILE, bien sea por medio de desarrollo totalmente nativo o aplicaciones hibridas. Usamos Metodologías Ágiles de Desarrollo responsive design lo cual garantiza y permite entregar proyectos siempre a tiempo, bien construidos y de alta calidad que puedan servir en los diferentes dispositivos móviles existentes como smartphones o tablets.
-                </p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
     </div>
   </section>
 
   <!-- Signup Section -->
-  <section id="signup" class="signup-section">
+  <section id="contactenos" class="signup-section">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto text-center">
 
           <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+          <h2 class="text-white mb-5">Contáctenos!</h2>
 
-          <form class="form-inline d-flex">
-            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-          </form>
 
         </div>
       </div>
@@ -229,44 +203,6 @@
   <!-- Contact Section -->
   <section class="contact-section bg-black">
     <div class="container">
-
-      <div class="row">
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Address</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-envelope text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Email</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="#">hello@yourdomain.com</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-mobile-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Phone</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">+1 (555) 902-8832</div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <div class="social d-flex justify-content-center">
         <a href="#" class="mx-2">
@@ -286,7 +222,7 @@
   <!-- Footer -->
   <footer class="bg-black small text-center text-white-50">
     <div class="container">
-      Copyright &copy; Your Website 2019
+      Copyright &copy; HITECH 2019
     </div>
   </footer>
 

@@ -21,6 +21,11 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
 
+    <style>
+        .navbar-shrink .navbar-brand img{
+            height: 55px;
+        }
+    </style>
 </head>
 
 <body id="page-top">
@@ -28,7 +33,9 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img  src="/img/logo.png" />
+      </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -36,13 +43,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#about">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#quienesSomos">¿Quiénes somos?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#desarrollo">Desarrollo</a>
           </li>
         </ul>
       </div>
@@ -74,52 +81,122 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="projects-section bg-light">
+  <!-- quines somos -->
+  <section id="quienesSomos" class="projects-section bg-light">
     <div class="container">
 
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+        <div class="col-xl-4 col-lg-4">
+          <img class="img-fluid mb-3 mb-lg-0" src="/img/quienes_somos.png" alt="">
         </div>
-        <div class="col-xl-4 col-lg-5">
+        <div class="col-xl-8 col-lg-8">
           <div class="featured-text text-center text-lg-left">
-            <h4>Shoreline</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+            <h4>¿Quiénes somos? </h4>
+            <p class="text-black-50 mb-0">
+                Expertos en el desarrollo de software a la medida trabajamos con profesionales idóneos y capacitados en diversas áreas. <br><br>
+                Profesionales involucrados en todo el proceso relacionado a la creación y diseño de sistemas, partiendo activamente en la planificación inicial concibiendo, elaborando, estableciendo parámetros y diseñando. Cada miembro del equipo de Desarrolladores de Sistemas asume una de las etapas que será supervisada por el líder del Proyecto. Haciéndonos de esto los mejores en desarrollo de software. Para responder adecuadamente y en la mejor forma a las necesidades del cliente.
+            </p>
           </div>
         </div>
       </div>
 
+    </div>
+  </section>
+
+  <!-- desarrollo  -->
+  <section id="desarrollo" class="projects-section bg-light">
+    <div class="container">
+
       <!-- Project One Row -->
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+      <div class="row justify-content-center no-gutters">
+         <div class="col-lg-6 order-lg-first">
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">DESARROLO</h5>
+                    <hr class="d-none d-lg-block mb-0 mr-0">
+                    <p class="mb-0">la diferencia con otras empresas desarrolladoras es que cada vez que inician un proyecto a la medida construyen todo desde cero para facturar más, nosotros fabricamos software usando componentes ya probados y listos. Además, contamos con los derechos de autor de muchos de nuestros desarrollos como respaldo los cuales hacen la gran diferencia.</p>
+                    <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+            </div>
+
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 order-lg-first">
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">DESARROLLO DE SOFTWARE</h5>
+                    <hr class="d-none d-lg-block mb-0 mr-0">
+                    <p class="mb-0">
+                        Somos un equipo comprometido en desarrollar herramientas excepcionales y únicas, enfocadas en las necesidades de nuestros clientes.<br>
+                        Estamos a la vanguardia tecnológica, esto nos permite ofrecer una variedad de soluciones. Haciendo evaluaciones de necesidades, estudio de viabilidad, diseño, desarrollo, pruebas, implementación, capacitación, garantía de soporte y mejoras. <br>
+                        Desarrollamos en lenguajes de programación tales como: PHP, JAVA, .NET, PHYTON, C#, JavaScript, Assembly language (ASL) manejamos los siguientes motores de base de datos: MYSQL, MS SQL Server, PostgreSQL y Oracle. <br>
+                        Especialistas en Frameworks como: Zend Framework, Phalcon, Yii, Codeigniter, Symfony2, Laravel.
+                    </p>
+                    <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+            </div>
+
+        </div>
+      </div>
+
+
+      <!-- Project One Row -->
+      <div class="row justify-content-center no-gutters">
+         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Misty</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
+              <div class="project-text w-100 my-auto">
+                <h4 class="text-white">DESARROLO</h4>
+                <p class="mb-0 text-white-50">la diferencia con otras empresas desarrolladoras es que cada vez que inician un proyecto a la medida construyen todo desde cero para facturar más, nosotros fabricamos software usando componentes ya probados y listos. Además, contamos con los derechos de autor de muchos de nuestros desarrollos como respaldo los cuales hacen la gran diferencia.</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto">
+                <h4 class="text-white">DESARROLLO DE SOFTWARE</h4>
+                <p class="mb-0 text-white-50">
+                    Somos un equipo comprometido en desarrollar herramientas excepcionales y únicas, enfocadas en las necesidades de nuestros clientes.<br>
+                    Estamos a la vanguardia tecnológica, esto nos permite ofrecer una variedad de soluciones. Haciendo evaluaciones de necesidades, estudio de viabilidad, diseño, desarrollo, pruebas, implementación, capacitación, garantía de soporte y mejoras. <br>
+                    Desarrollamos en lenguajes de programación tales como: PHP, JAVA, .NET, PHYTON, C#, JavaScript, Assembly language (ASL) manejamos los siguientes motores de base de datos: MYSQL, MS SQL Server, PostgreSQL y Oracle. <br>
+                    Especialistas en Frameworks como: Zend Framework, Phalcon, Yii, Codeigniter, Symfony2, Laravel.
+                </p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Project Two Row -->
+      <!-- Project two Row -->
       <div class="row justify-content-center no-gutters">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+         <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto">
+                <h4 class="text-white">DESARROLLO WEB</h4>
+                <p class="mb-0 text-white-50">
+                    Desarrollamos aplicaciones a la medida del cliente teniendo una apariencia impecable, un funcionamiento rápido y un excepcional desempeño para permitir la mejor experiencia del cliente en el ambiente web, usamos tecnologías de punta como: JAVA, PHP, .NET, Javascript, Ajax, Jquery, etc; todos los proyectos se basan en Frameworks de desarrollo como Zend Framework, Codeigniter, Laravel, Zend Framework, Backbone, Ember, Angular, Jquery, ASP .Net, Hibernate, Junit y Spring. <br>
+                    Basamos nuestras aplicaciones en el modelo Cliente-Servidor, y desarrollamos aplicaciones usando (web service) servicios web como:( WS-Security, REST, SOA, SOAP,).
+                </p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+              <div class="project-text w-100 my-auto">
+                <h4 class="text-white">DESARROLLO MÓVILES</h4>
+                <p class="mb-0 text-white-50">
+                    Las aplicaciones forman cada vez más parte de nuestra vida diaria por eso desarrollamos software movil a la medida para ANDROID, IOS, WINDOWS MOBILE, bien sea por medio de desarrollo totalmente nativo o aplicaciones hibridas. Usamos Metodologías Ágiles de Desarrollo responsive design lo cual garantiza y permite entregar proyectos siempre a tiempo, bien construidos y de alta calidad que puedan servir en los diferentes dispositivos móviles existentes como smartphones o tablets.
+                </p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
